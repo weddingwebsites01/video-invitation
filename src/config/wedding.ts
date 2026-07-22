@@ -99,6 +99,17 @@ export const weddingConfig = {
       { name: "Neha Singh", relation: "Sister", image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400" }
     ]
   },
+  scratchCard: {
+    title: "Scratch to Reveal the Wedding Date",
+    dateText: "November 20, 2026 • Jaipur, Rajasthan",
+    blessingText: "You are cordially invited to witness our royal union!",
+    revealedTitle: "Date & Details Revealed!"
+  },
+  travel: {
+    airport: "Jaipur International Airport (JAI)\nApprox. 30 minutes drive from the venue.",
+    railway: "Jaipur Junction (JP)\nApprox. 20 minutes drive from the venue.",
+    hotelsNotice: "We have arranged block bookings at nearby properties. Please mention '#AnanyaGotVikramed' while booking to avail special rates."
+  },
   contact: {
     email: "wedding@ananyavikram.com",
     phone: "+91 98765 43210"

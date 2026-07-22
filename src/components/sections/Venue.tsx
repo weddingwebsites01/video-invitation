@@ -56,7 +56,7 @@ export function Venue() {
                 </div>
                 <div>
                   <h4 className="font-medium tracking-wider uppercase text-maroon-900 mb-2">Nearest Airport</h4>
-                  <p className="text-maroon-900/70">Jaipur International Airport (JAI)<br/>Approx. 30 minutes drive from the venue.</p>
+                  <p className="text-maroon-900/70 whitespace-pre-line">{weddingConfig.travel?.airport || "Jaipur International Airport (JAI)\nApprox. 30 minutes drive from the venue."}</p>
                 </div>
               </div>
 
@@ -66,7 +66,7 @@ export function Venue() {
                 </div>
                 <div>
                   <h4 className="font-medium tracking-wider uppercase text-maroon-900 mb-2">Railway Station</h4>
-                  <p className="text-maroon-900/70">Jaipur Junction (JP)<br/>Approx. 20 minutes drive from the venue.</p>
+                  <p className="text-maroon-900/70 whitespace-pre-line">{weddingConfig.travel?.railway || "Jaipur Junction (JP)\nApprox. 20 minutes drive from the venue."}</p>
                 </div>
               </div>
 
